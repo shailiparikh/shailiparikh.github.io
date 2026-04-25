@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shaili Parikh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- WELCOME OVERLAY -->
+  <div id="welcome-overlay">
+    <span class="w-hello">So glad you made it.</span>
+    <span class="w-sub">— Shaili</span>
+    <div class="w-music-prompt">
+      <p class="w-music-q">Would you like some meditative music while you browse?</p>
+      <div class="w-music-btns">
+        <button class="w-btn w-btn-yes" id="musicYes">Yes please ♫</button>
+        <button class="w-btn w-btn-no" id="musicNo">No thanks</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- BACKGROUND ORBS -->
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#hero">SP</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#beyond">Beyond Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="container hero-inner">
+      <p class="hero-eyebrow hero-line">New York, NY</p>
+      <h1 class="hero-line">Shaili Parikh</h1>
+      <p class="hero-tagline hero-line">Tech Leader <span class="dot">·</span> Automation Expert <span class="dot">·</span> Strategy Executor</p>
+      <p class="hero-sub hero-line">
+        I bridge the gap between business strategy and technical delivery — building programs,
+        automating operations, and leading cross-functional teams that get measurable results.
+      </p>
+      <div class="hero-ctas hero-line">
+        <a href="#experience" class="btn btn-primary">View My Work</a>
+        <a href="assets/resume.pdf" class="btn btn-outline" download>Download Resume</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number c-blue" data-target="20" data-prefix="$" data-suffix="M+">$20M+</span>
+          <span class="stat-label">Program Portfolio</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number c-purple" data-target="13" data-prefix="$" data-suffix="M+">$13M+</span>
+          <span class="stat-label">Cost Savings</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number c-teal" data-target="15" data-prefix="" data-suffix="+">15+</span>
+          <span class="stat-label">Implementations</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="fade-in">
+    <div class="container">
+      <h2 class="section-label">About</h2>
+      <div class="about-body">
+        <p>
+          I started my career as a software developer at Broadridge Financial Solutions, building enterprise-grade
+          Workday integrations for systems processing 100K+ records monthly. That technical foundation led me to
+          Neuralify, where I discovered automation's potential to transform how organizations operate — and I've
+          been at that intersection of technology, strategy, and execution ever since.
+        </p>
+        <p>
+          After building an independent RPA consulting practice serving enterprise clients including Abiomed (acquired by
+          Johnson &amp; Johnson), I joined FactSet Research Systems as a Technical Program Manager. There I've led a
+          $20M+ program portfolio, advised the CISO on security strategy, and driven initiatives delivering over $10M
+          in cost savings.
+        </p>
+        <p>
+          Outside my corporate work, I mentor youth in tech through Year Up and Technovation, and am building
+          a stealth AI startup — because I believe technology should create things that genuinely matter to people.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="fade-in">
+    <div class="container">
+      <h2 class="section-label">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item c-blue">
+          <div class="timeline-meta">
+            <span class="company">FactSet Research Systems</span>
+            <span class="dates">Jun 2022 – Present</span>
+          </div>
+          <div class="timeline-role">Technical Program Manager</div>
+          <div class="timeline-sub">Automation · Cybersecurity · Platform Infrastructure · Content</div>
+          <ul>
+            <li>Serve as strategic advisor to the CISO, aligning cross-functional security leadership on IAM, GRC, and Network Security initiatives; managed program delivery, accelerating time-to-value by 30%</li>
+            <li>Lead budget planning and rigorous tracking for a <strong>$20M+ program portfolio</strong>; provide executive spend reporting to CTO leadership</li>
+            <li>Drove Disaster Recovery program across 8 critical projects, incorporating a new ITSM platform and vendor consolidation that delivered <strong>$10M in total cost savings</strong></li>
+            <li>Championed selection and implementation of ServiceNow, coordinating across business units and vendors to improve asset tracking visibility by 40%</li>
+            <li>Built and mentored a global team of Program Managers, establishing governance frameworks and execution standards for critical infrastructure initiatives</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item c-purple">
+          <div class="timeline-meta">
+            <span class="company">Independent Consultant</span>
+            <span class="dates">May 2020 – May 2022</span>
+          </div>
+          <div class="timeline-role">Principal Consultant, RPA</div>
+          <ul>
+            <li>Built a consulting practice from the ground up serving 3 enterprise clients, achieving <strong>100% client retention</strong> through delivery excellence and referral-based growth</li>
+            <li>Led 12-month RPA engagement for Abiomed (medical device manufacturer, acquired by J&amp;J), automating 5 critical Oracle ERP finance processes; reduced manual processing time by 40% and improved data accuracy for regulatory compliance</li>
+            <li>Built and operationalized RPA Centers of Excellence (CoEs) enabling sustainable automation practices across client organizations</li>
+            <li>Implemented automated invoice management across Deltek, Pipedrive, and Oracle ERP systems, improving processing efficiency by 90%</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item c-teal">
+          <div class="timeline-meta">
+            <span class="company">Neuralify</span>
+            <span class="dates">Jul 2018 – Mar 2020</span>
+          </div>
+          <div class="timeline-role">Senior Consultant, IT Strategy &amp; Operations</div>
+          <ul>
+            <li>Delivered <strong>15+ RPA implementations</strong> across 8 enterprise clients in finance, healthcare, and professional services; secured $500K+ in follow-on engagements</li>
+            <li>Led technical discovery with C-level stakeholders, translating business requirements into automation solutions via PoCs, technical design documents, and ROI analyses</li>
+            <li>Conducted solution demonstrations and user training for 200+ end users; partnered with sales teams on pre-sales scoping and feasibility, contributing to 40% YoY revenue growth</li>
+            <li>Facilitated Agile ceremonies including bi-weekly scrums and bimonthly demos, ensuring stakeholder transparency and on-time delivery</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item c-amber">
+          <div class="timeline-meta">
+            <span class="company">Broadridge Financial Solutions</span>
+            <span class="dates">Jan 2016 – Jul 2018</span>
+          </div>
+          <div class="timeline-role">Programmer Analyst</div>
+          <ul>
+            <li>Designed, developed, and managed <strong>60+ inbound and outbound Workday integrations</strong>, improving data accuracy by 25% and reducing manual reconciliation by 30% across enterprise HR systems serving 5,000+ employees</li>
+            <li>Built SOAP and REST API integrations with error-handling, token-based authentication, and custom XSLT transformations supporting production workflows processing <strong>100K+ records monthly</strong></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMUNITY IMPACT -->
+  <section id="impact" class="fade-in">
+    <div class="container">
+      <h2 class="section-label">Community Impact</h2>
+      <div class="impact-card">
+        <div class="impact-meta">
+          <span class="company">Success Academies Charter Schools</span>
+          <span class="dates">Dec 2020 – Mar 2023</span>
+        </div>
+        <div class="timeline-role teal">Tech Lead, Digital Transformation</div>
+        <ul>
+          <li>Built and led a team of 5 Process Analysts and System Engineers for a newly created RPA Center of Excellence; delivered <strong>10+ automations in year one</strong>, generating $500K in annual cost savings across finance, HR, and operations</li>
+          <li>Architected an automated data migration solution using Automation Anywhere to transfer student data to the NYC Department of Education's legacy portal, eliminating manual SQL processes and delivering <strong>$2M+ in savings</strong> while reducing headcount requirements by 10 FTE</li>
+          <li>Implemented automated license tracking that identified unused software across the organization, reducing annual vendor spend by <strong>$1M+</strong> through data-driven contract negotiations</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="fade-in">
+    <div class="container">
+      <h2 class="section-label">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-name">Stealth Startup</span>
+            <span class="project-tag">In Progress</span>
+          </div>
+          <p class="project-desc">
+            An AI-powered consumer product currently in stealth. Built solo from ideation through full-stack engineering,
+            AI integration, and go-to-market strategy. Details available upon request.
+          </p>
+          <div class="project-stack">
+            <span>React</span><span>Node.js</span><span>Generative AI</span><span>Automated Fulfillment</span>
+          </div>
+        </div>
+
+        <div class="project-card project-card--wip">
+          <div class="project-header">
+            <span class="project-name">Mental Wellness Initiative</span>
+            <span class="project-tag project-tag--pink">Coming Soon</span>
+          </div>
+          <p class="project-desc">
+            A resource and community platform focused on mental wellness for professionals in high-pressure environments.
+            Aimed at normalizing conversations around burnout, emotional health, and boundaries in the workplace —
+            especially in tech.
+          </p>
+          <div class="project-stack">
+            <span class="stack-pink">Mental Health Advocacy</span><span class="stack-pink">Community Building</span><span class="stack-pink">Wellness Resources</span>
+          </div>
+        </div>
+
+        <div class="project-card project-card--wip">
+          <div class="project-header">
+            <span class="project-name">AI for Girls</span>
+            <span class="project-tag project-tag--teal">Coming Soon</span>
+          </div>
+          <p class="project-desc">
+            An educational initiative teaching AI literacy and hands-on skills to young girls. Inspired by years of
+            coaching at Technovation, this program demystifies artificial intelligence through real projects, ethical
+            discussions, and mentorship — empowering the next generation of women in tech.
+          </p>
+          <div class="project-stack">
+            <span class="stack-teal">AI Education</span><span class="stack-teal">Youth Mentorship</span><span class="stack-teal">Girls in Tech</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="fade-in">
+    <div class="container">
+      <h2 class="section-label">Skills</h2>
+      <div class="skills-grid">
+        <div class="skills-group">
+          <h3>Core Competencies</h3>
+          <div class="skill-tags">
+            <span>Tech Strategy</span>
+            <span>Program Management</span>
+            <span>Automation &amp; RPA</span>
+            <span>Vendor Management</span>
+            <span>Team Leadership</span>
+            <span>Budgeting (Capex/Opex)</span>
+            <span>Process Improvement</span>
+            <span>Commercial Acumen</span>
+            <span>Roadmapping &amp; Prioritization</span>
+            <span>Data Analysis</span>
+            <span>Change Management</span>
+            <span>Stakeholder Management</span>
+          </div>
+        </div>
+        <div class="skills-group">
+          <h3>Tech &amp; Tools</h3>
+          <div class="skill-tags">
+            <span>Automation Anywhere</span>
+            <span>ServiceNow</span>
+            <span>Workday (SOAP/REST APIs)</span>
+            <span>SAP · Oracle · Salesforce · ADP</span>
+            <span>AWS · Azure · VMware</span>
+            <span>Cybersecurity (IAM, Incident Response)</span>
+            <span>JIRA · Kanban · Confluence</span>
+            <span>SQL</span>
+            <span>AI/LLMs (Claude, Imagen 3)</span>
+            <span>React · Node.js</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEYOND WORK -->
+  <section id="beyond" class="fade-in">
+    <div class="container">
+      <h2 class="section-label">Beyond Work</h2>
+      <p class="beyond-intro">
+        I believe the fullest version of a career is one that reflects who you actually are.
+        Outside of work, I try to live by the same values I bring to everything I do —
+        compassion, curiosity, and a genuine desire to leave things better than I found them.
+      </p>
+
+      <div class="values-grid">
+        <div class="value-card value-green">
+          <span class="value-icon">🌱</span>
+          <h3>Plant-Based Living</h3>
+          <p>Vegan for 8+ years. It started as a choice for the animals and grew into a whole philosophy — that small, consistent decisions add up to real change.</p>
+        </div>
+        <div class="value-card value-pink">
+          <span class="value-icon">🐾</span>
+          <h3>Animal Welfare</h3>
+          <p>Animals have always been my people. I believe deeply in their right to exist without harm, and it shapes how I move through the world every single day.</p>
+        </div>
+        <div class="value-card value-purple">
+          <span class="value-icon">🧠</span>
+          <h3>Mental Wellness</h3>
+          <p>Especially in high-pressure environments like tech, I think we don't talk enough about burnout, boundaries, and emotional health. I'm working to change that.</p>
+        </div>
+        <div class="value-card value-blue">
+          <span class="value-icon">👩‍💻</span>
+          <h3>Girls in Tech</h3>
+          <p>Every young woman deserves to see herself in technology. I've spent years mentoring and coaching — because representation built through access is the only kind that lasts.</p>
+        </div>
+      </div>
+
+      <div class="volunteer-row">
+        <h3>Where I Show Up</h3>
+        <div class="volunteer-tags">
+          <span class="vtag-1">Year Up — Youth Mentor</span>
+          <span class="vtag-2">Fishbowl — Community Leader</span>
+          <span class="vtag-3">Speak Mentorship — Mentor</span>
+          <span class="vtag-4">Technovation — Coach</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="fade-in">
+    <div class="container contact-inner">
+      <h2>Get in Touch</h2>
+      <p class="contact-sub">Open to new opportunities. Let's talk.</p>
+      <div class="contact-links">
+        <a href="mailto:parikhshaili4@gmail.com" class="btn btn-primary">parikhshaili4@gmail.com</a>
+        <a href="https://www.linkedin.com/in/shaili-parikh" class="btn btn-outline" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <p class="contact-location">New York, NY &nbsp;·&nbsp; (732) 407-0702</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Shaili Parikh</p>
+    </div>
+  </footer>
+
+  <!-- MUSIC PLAYER -->
+  <audio id="bg-music" loop>
+    <source src="assets/music.mp3" type="audio/mpeg" />
+  </audio>
+
+  <button id="music-toggle" aria-label="Toggle music">Music</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
